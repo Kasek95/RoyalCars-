@@ -42,6 +42,15 @@ const Opinion = () => {
               }))
           }
 
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
+
+
 
 
 
@@ -58,17 +67,18 @@ const Opinion = () => {
                 <div className={hide ? "reviews__boxes hide" : "reviews__boxes"}>
 
 
-
-                        {opinions.map((element, index) =>(<div>
-                            <div key={index} className={"review__box"}>
-                                <div className={"review_img"}>
-                                    <img src={element.img}/>
+                        <Slider {...settings}>
+                            {opinions.map((element, index) =>(<div>
+                                <div key={index} className={"review__box"}>
+                                    <div className={"review_img"}>
+                                        <img src={element.img}/>
+                                    </div>
+                                    <i className="fa-solid fa-quote-right"></i>
+                                    <p className={"review__quote"}>{element.opinion}</p>
+                                    <strong className={"review__person"}>{element.name}</strong>
                                 </div>
-                                <i className="fa-solid fa-quote-right"></i>
-                                <p className={"review__quote"}>{element.opinion}</p>
-                                <strong className={"review__person"}>{element.name}</strong>
-                            </div>
-                        </div>))}
+                            </div>))}
+                        </Slider>
 
 
                 </div>

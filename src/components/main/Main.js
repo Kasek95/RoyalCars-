@@ -3,6 +3,7 @@ import GreetingSection from "./GreetingSection";
 import AboutUs from "./AboutUs"
 import Opinion from "./Opinion";
 import Concat from "./Concat";
+import Footer from "./Footer";
 
 
 const Main = () => {
@@ -12,6 +13,7 @@ const Main = () => {
             <AboutUs/>
             <Opinion/>
             <Concat/>
+            <Footer/>
         </main>
     )
 }
