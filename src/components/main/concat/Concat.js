@@ -1,16 +1,15 @@
 import React, {useState,useEffect} from "react";
-
 import "./concat.scss"
 
 
 const Concat = () => {
 
     return (
-        <section className={"concat"}>
+        <section className={"concat container"} id={"concat"}>
 
             <div className={"tittle-container"}><h2>Concat</h2></div>
 
-            <div className={"contact-wrapper container"}>
+            <div className={"contact-wrapper "}>
 
                         <section className={"google-maps"}>
                             <iframe

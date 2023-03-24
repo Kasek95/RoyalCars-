@@ -1,6 +1,5 @@
-@import "../scss/base";
-@import "../scss/colors";
-
+@import "../../scss/colors";
+@import "../../scss/base";
 .concat {
 
     .tittle-container {
@@ -64,6 +63,7 @@
 
 
             .contact-form-input {
+              background-color: $color-white;
               outline: none;
               font-size: 16px;
               line-height: 22px;
@@ -89,6 +89,7 @@
             }
             .contact-form-checkbox-label {
               margin-bottom: 20px;
+
               display: flex;
             }
 
@@ -105,7 +106,7 @@
               border-radius: 8px;
             }
             .contact-form-checkbox:checked:after {
-              background-image: url('../Assets/check.png');
+              background-image: url('../../Assets/check.png');
               background-repeat: no-repeat;
               background-position: center;
               background-size: 13px;

@@ -10,7 +10,7 @@ function Header(props) {
         <header>
 
             <div className={"header_container container"}>
-                <a className={"logo"} href={"#"}>Royal<span>Cars</span></a>
+                <Link className={"logo"} to={"/"}>Royal<span>Cars</span></Link>
                 <navigation className={"navigation"}>
                     <Link className={"navLink"} to={"/"}>About Us</Link>
                     <Link className={"navLink"} to={"/Fleet"}>Fleet of Vehicles</Link>

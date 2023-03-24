@@ -1,6 +1,6 @@
-@import "../scss/colors";
-@import "../scss/base";
-@import "../scss/mixin";
+@import "../../scss/colors";
+@import "../../scss/base";
+@import "../../scss/mixin";
 
 .about_us {
   h2 {
@@ -31,7 +31,7 @@
     .about_box_first {
       margin-right: 2rem;
       .wedding {
-        background-image: url("../Assets/weding.jpg");
+        background-image: url("../../Assets/weding.jpg");
         background-size: cover;
         background-position: center;
         @include aboutUsBox;
@@ -67,7 +67,7 @@
       }
 
       .party {
-        background-image: url("../Assets/stretch-limousine-4593863_1920.jpg");
+        background-image: url("../../Assets/stretch-limousine-4593863_1920.jpg");
         background-position: center;
         background-size: cover;
         @include aboutUsBox;
@@ -115,7 +115,7 @@
     .about_box_second {
       margin-left: 2rem;
       .earn {
-        background-image: url("../Assets/woman-3261425_1280.jpg");
+        background-image: url("../../Assets/woman-3261425_1280.jpg");
         background-position: center;
         background-size: cover;
         margin-top: 200px;
@@ -151,7 +151,7 @@
       }
       .rent {
         @include aboutUsBox;
-        background-image: url("../Assets/auto-2179220_1280.jpg");
+        background-image: url("../../Assets/auto-2179220_1280.jpg");
         background-position: center;
         background-size: cover;
         margin-bottom: 0;

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import img from "../Assets/woman-3261425_1280.jpg"
+
 import opinion from "./opinions";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -94,7 +94,7 @@ const Opinion = () => {
                         </div>
                         <div className={"add__image"}>
                             <span>Add your Img</span>
-                            <input type={"file"} onChange={fileSelectedHandler} ya/>
+                            <input type={"file"} onChange={fileSelectedHandler} />
                         </div>
                     </div>
                     <div className={"containerSendBtn"}>

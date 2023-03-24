@@ -3,10 +3,11 @@ import {Link} from "react-router-dom";
 import "./footer.scss"
 
 
+
 const Footer = () => {
 
     return (
-        <section className={"footer"}>
+        <section className={"footer "}>
             <Link className={"footerLogo"} to={"/"}>Royal<span>Cars</span></Link>
 
             <div className={"mediaFooter"}>

@@ -1,0 +1,26 @@
+{
+  "carAdd": [
+    {
+      "name": "Paweł",
+      "surname": "Kąsek",
+      "acceptedTos": true,
+      "carYear": 2,
+      "carInfo": "Lkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+      "email": "pawel.kasek62@gmail.com",
+      "carPrice": "10",
+      "carImg": "C:\\fakepath\\297959421_2047385655444832_4162116305776552513_n.jpg",
+      "id": 1
+    },
+    {
+      "name": "Julia",
+      "surname": "Opiołka",
+      "acceptedTos": true,
+      "carYear": 15,
+      "carInfo": "llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll",
+      "email": "pawel.kasek62@gmail.com",
+      "carPrice": "159",
+      "carImg": "",
+      "id": 2
+    }
+  ]
+}

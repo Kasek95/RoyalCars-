@@ -1,6 +1,6 @@
-import image1 from "../../Images/warthog-7716409_640.jpg"
-import image2 from "../../Images/animal-4218265_640.jpg"
-import image3 from "../../Images/females-1450050_640.jpg"
+import image1 from "../../../Images/warthog-7716409_640.jpg"
+import image2 from "../../../Images/animal-4218265_640.jpg"
+import image3 from "../../../Images/females-1450050_640.jpg"
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import GreetingSection from "./GreetingSection";
-import AboutUs from "./AboutUs"
-import Opinion from "./Opinion";
-import Concat from "./Concat";
-import Footer from "./Footer";
+import GreetingSection from "./greetingSection/GreetingSection";
+import AboutUs from "./aboutus/AboutUs";
+import Opinion from "./opinion/Opinion";
+import Concat from "./concat/Concat";
+
 
 
 const Main = () => {
@@ -13,7 +13,6 @@ const Main = () => {
             <AboutUs/>
             <Opinion/>
             <Concat/>
-            <Footer/>
         </main>
     )
 }
